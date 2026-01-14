@@ -48,6 +48,7 @@ body {
   font-size: 15px;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  text-decoration:none;
 }
 
 .apply-btn:hover {
@@ -63,6 +64,7 @@ body {
   .apply-btn {
     padding: 6px 18px;
     font-size: 14px;
+    text-decoration:none;
   }
 }
 
@@ -242,6 +244,7 @@ body {
   transition: background-color 0.2s ease;
   margin: auto;
   margin-top: 10px;
+  text-decoration:none;
 }
 
 @media (max-width: 480px) {
