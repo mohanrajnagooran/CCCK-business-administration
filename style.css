@@ -1873,3 +1873,74 @@ video::-webkit-media-controls {
 }
 
 
+.appointment-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 16px;
+}
+
+/* Card */
+.appointment-card {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  max-width: 520px;
+  width: 100%;
+  padding: 40px 32px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.appointment-card h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+/* Text */
+.appointment-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+  color: #e0e7ff;
+}
+
+/* Button */
+.book-btn {
+  display: inline-block;
+  background: #ffffff;
+  color: #1e3a8a;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+  background: #e0e7ff;
+  transform: translateY(-2px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .appointment-card {
+    padding: 32px 24px;
+  }
+
+  .appointment-card h3 {
+    font-size: 22px;
+  }
+
+  .appointment-card p {
+    font-size: 15px;
+  }
+
+  .book-btn {
+    width: 100%;
+    padding: 14px;
+  }
+}
